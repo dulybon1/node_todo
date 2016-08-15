@@ -4,11 +4,16 @@
   "description": "implement todo api",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "me",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
+  },
+
+  "engines": {
+    "node": "4.4.4"
   }
 }
